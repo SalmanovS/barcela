@@ -1,0 +1,92 @@
+ul.navigation {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+    border-right: 1px solid #bbb;
+    background-color: #2d6ea7;
+    text-align: center;
+    font-size: 17px;
+    font-family: verdana
+
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Измените цвет ссылки на #111 (черный) при наведении */
+.navigation li a:hover {
+    background-color: #012442;
+}
+
+ul.downNavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.downNavigation li {
+    float: left;
+    border-right: 1px solid #bbb;
+    text-align: center;
+    font-size: 13px;
+    background-color: #2d6ea7;
+    font-family: verdana
+
+
+}
+
+.downNavigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Измените цвет ссылки на #111 (черный) при наведении */
+.downNavigation li a:hover {
+    background-color: #012442;
+}
+
+.logoDiv {
+            float: center;
+
+
+}
+.headInfo {
+
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.welcome {
+    text-align: center;
+    margin-top: 150px;
+    font-family: georgia;
+    font-size: 60px;
+    color: #960000;
+
+}
+
+.pageError {
+    text-align: center;
+    margin-top: 150px;
+    font-family: georgia;
+    font-size: 30px;
+    color: #960000;
+
+}

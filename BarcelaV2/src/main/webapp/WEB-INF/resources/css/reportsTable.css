@@ -1,0 +1,35 @@
+.reportsTable {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+.reportsTable th {
+    font-weight: bold;
+	padding: 5px;
+	background: #4A626C ;
+	border: 2px solid ;
+	border-radius: 7px;
+	font-size: 17px;
+	color: #e9edeb;
+}
+
+.reportsTable td {
+    text-align: center;
+    font-size: 15px;
+    background: #C0CCD3;
+	border: 1px solid white;
+	border-radius: 7px;
+	padding: 5px;
+	font-family: verdana;
+}
+
+.newSalesAllProduct {
+        background: #DCECFA;
+        border: 2px solid #871120;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 5px;
+        overflow:hidden;
+        overflow-y: scroll;
+        height: 500px;
+}

@@ -1,0 +1,31 @@
+.tableStyle {
+	width: 70%;
+	margin-bottom: 50px;
+	border: 1px solid;
+	border-collapse: collapse; 
+}
+.tableStyle th {
+	font-weight: bold;
+	padding: 5px;
+	background: #2d6ea7;
+	border: 1px solid #585656;
+	font-size: 17px;
+	color: white;
+}
+.tableStyle td {
+    text-align: center;
+    font-size: 15px;
+	border: 1px solid #585656;
+	padding: 5px;
+	font-family: verdana;
+}
+
+.form td{
+        text-align: center;
+        color: blue;
+        font-size: 20px;
+
+}
+
+
+
